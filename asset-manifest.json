@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather-app/static/css/main.435dea96.css",
+    "main.js": "/weather-app/static/js/main.42ea1bd6.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/weather-app/static/media/Montserrat-VariableFont_wght.c28a96c369871653b853.ttf",
+    "index.html": "/weather-app/index.html",
+    "main.435dea96.css.map": "/weather-app/static/css/main.435dea96.css.map",
+    "main.42ea1bd6.js.map": "/weather-app/static/js/main.42ea1bd6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435dea96.css",
+    "static/js/main.42ea1bd6.js"
+  ]
+}
