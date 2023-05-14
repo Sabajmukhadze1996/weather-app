@@ -1,0 +1,36 @@
+{
+  "en": {
+    "weather_app": "Weather App",
+    "current_temp": "Current Temp",
+    "feels_like": "Feels Like",
+    "weather_condition": "Weather Condition",
+    "humidity": "Humidity",
+    "wind_speed": "Wind Speed",
+    "visibility": "Visibility",
+    "sea_level": "Sea Level",
+    "country": "Country",
+    "meters": "meters",
+    "search": "Search...",
+    "submit": "SUBMIT",
+    "author": "By - Saba Jmukhadze",
+    "not_found_error_text": "Please, specify the location correctly!",
+    "part_of_the_day": "Part of the Day"
+  },
+  "geo": {
+    "weather_app": "ამინდის პროგნოზი",
+    "current_temp": "ტემპერატურა",
+    "feels_like": "მგრძნობელობა",
+    "weather_condition": "ამინდის მდგომარეობა",
+    "humidity": "ტენიანობა",
+    "wind_speed": "ქარის სიჩქარე",
+    "visibility": "ხილვადობა",
+    "sea_level": "ზღვის დონიდან",
+    "country": "ქვეყანა",
+    "meters": "მეტრი",
+    "search": "ძებნა...",
+    "submit": "ძებნა",
+    "author": "ავტორი - საბა ჯმუხაძე",
+    "not_found_error_text": "გთხოვთ, სწორად მიუთითოთ ადგილმდებარეობა!",
+    "part_of_the_day": "დღის მონაკვეთი"
+  }
+}

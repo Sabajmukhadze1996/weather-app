@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+html,
+body,
+#root,
+.main-app-layout-container {
+  background-image: linear-gradient(315deg, #e8cf0f 0%, #0d324d 42%);
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: montserrat !important;
+}
+
+.main-app-layout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 0.7rem;
+}
+
+.weathear-container {
+  max-width: 1450px;
+  width: 100%;
+  min-height: 100vh;
+  border-radius: 20px;
+  padding-inline: 0.7rem;
+  margin-top: 0.9rem;
+}
+
+@media (max-width: 514px) {
+  .main-app-layout-container {
+    padding-inline: 0rem !important;
+  }
+  .weathear-container {
+    border-radius: 0px;
+  }
+}

@@ -1,0 +1,67 @@
+.weather-display {
+  color: #fff !important;
+  padding-bottom: 3rem;
+}
+
+.weather-display * {
+  letter-spacing: 1.1px;
+}
+
+.weather-display h4 {
+  font-weight: bold;
+}
+
+.weather-display h4 span {
+  font-weight: 300;
+}
+
+.weather-display {
+  padding-top: 2.3rem;
+  padding-inline: 2rem;
+}
+
+@media (max-width: 514px) {
+  .weather-display {
+    padding-inline: 0.5rem;
+  }
+  .weather-current-temps-container {
+    padding-top: 1.8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.weather-description {
+  margin-top: 2rem;
+}
+
+.weather-current-temps-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.weather-location-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.7rem;
+  width: 100%;
+  padding-top: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .weather-location-title {
+    margin-top: 2.2rem;
+  }
+}
+
+.weather-location-title p {
+  font-size: 3rem;
+  word-break: break-word;
+}
+
+.weather-icon-img {
+  width: 130px;
+}

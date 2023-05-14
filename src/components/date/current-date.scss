@@ -1,0 +1,14 @@
+.current-date-container {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  white-space: nowrap;
+}
+
+.current-date-text {
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.1px;
+}

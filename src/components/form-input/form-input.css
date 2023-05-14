@@ -1,0 +1,79 @@
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 11rem;
+  padding-right: 1rem;
+}
+
+form input {
+  max-width: 600px;
+  width: 100%;
+  padding-block: 0.6rem;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 0px 3px #ffffff;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.1rem;
+  background-color: transparent;
+  padding-left: 55px;
+}
+
+form input::-moz-placeholder {
+  color: #fff;
+}
+
+form input::placeholder {
+  color: #fff;
+}
+
+form #search-icon {
+  font-size: 1.7rem !important;
+  color: #fff !important;
+  position: relative;
+  left: 43px;
+}
+
+.input-error-text {
+  position: absolute;
+  margin-left: 60px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: red;
+}
+
+form .form-btn {
+  padding-block: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: white;
+  box-shadow: 0 0 3px #eee;
+  width: 100px !important;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+  display: block;
+  letter-spacing: 0.7px;
+  height: 2.85rem;
+}
+
+form .form-btn {
+  background-color: rgb(49, 112, 220);
+}
+
+form .form-btn:hover {
+  background-color: rgb(43, 96, 188);
+}
+
+@media (max-width: 514px) {
+  form .form-btn {
+    box-shadow: 0 0 3px #eee;
+    width: 120px !important;
+  }
+}/*# sourceMappingURL=form-input.css.map */

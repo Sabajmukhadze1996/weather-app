@@ -1,0 +1,34 @@
+@font-face {
+  font-family: modal-font;
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.error-modal-text {
+  font-family: modal-font;
+  color: #fff;
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 2.3rem;
+}
+
+.close-container {
+  position: absolute;
+  padding: 0.1rem;
+  right: -1px;
+  top: 0px;
+  background: #dc143c;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+.close-container:hover {
+  background: #940d28;
+}
+
+

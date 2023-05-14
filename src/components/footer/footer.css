@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  background-color: rgba(8, 38, 58, 0.8823529412);
+  padding-top: 1.3rem;
+  padding-bottom: 0.6rem;
+  text-align: center;
+}
+
+.footer h4 {
+  color: #fff;
+  letter-spacing: 1px;
+}/*# sourceMappingURL=footer.css.map */
